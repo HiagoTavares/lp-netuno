@@ -187,32 +187,7 @@
     }
 
     footer .rodape { 
-        flex-direction: column;
-        align-items: center;
-    }
-
-    div.social img.logo-rodape {
-        width: 250px;
-    }
-
-    div.social figure img.icone {
-        width: 30px;
-    }
-    
-    div.social p {
-        font-size: 1.3rem;
-    }
-    div.botao-procS button {
-        width: 200px;
-        font-size: 1.8rem;
-    }
-
-    div.rodape-li ul {
-        font-size: 1.8rem;
-    }
-
-    div.contato p {
-        font-size: 1.8rem;
+        flex-wrap: wrap;
     }
 }
 
