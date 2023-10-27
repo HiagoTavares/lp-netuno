@@ -1,0 +1,318 @@
+@media (max-width: 1440px) {
+    div.conteudo1-1 img.bannertopo {
+        width: auto;
+        left: 390px;
+    }
+
+    div.conteudo1-1 img.vetor-form {
+        left: 5px;
+    }
+
+    div.formulario {
+        left: 15px;
+    }
+
+}
+@media (max-width:1280px){
+    
+    header > img {
+        display: block;
+        margin: auto;
+        
+    }
+
+    div.conteudo1-2 {
+        justify-content: center;
+    }
+
+    div.conteudo1-2 img {
+        width: 500px;
+    }
+}
+
+@media (max-width:1281px){
+    div.conteudo1-1 img.vetor-form {
+        left: 20px;
+    }
+
+    div.conteudo1-1 img.bannertopo {
+        width: 1200px;
+    }
+
+    div.formulario {
+        left: 30px;
+    }
+}
+
+@media (max-width: 1135px){
+    html {
+        font-size: 55%;
+    }
+
+   img.bannertopo {
+        max-width: 1000px;
+        left: 410px;
+    }
+
+    div.formulario {
+        left: 150px;
+        top: 50px;
+    }
+
+    div.conteudo1-1 img.vetor-form {
+        top: 250px;
+        left: 140px;
+        z-index: 1;
+    }
+
+    div.conteudo1-2 {
+        margin-top: 200px;
+    }
+
+    div.conteudo1-2 img {
+        width: 400px;
+    }
+
+    div.problema img {
+        width: 350px;
+        margin-bottom: 80px;
+        padding-right: 10px;
+    }
+
+}
+
+@media (max-width:1024px){
+
+    div.conteudo1-1 img.bannertopo {
+        top:50px;
+        left:450px;
+    }
+
+    div.conteudo1-1 img.vetor-form {
+        top: 228px;
+        left: 170px;
+    }
+
+    div.formulario {
+        left: 180px;
+    
+    }
+
+}
+
+
+
+@media (max-width: 885px){
+    header nav {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    div.conteudo1-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img.bannertopo {
+        width: 500px;
+        position: static;
+    }
+
+    img.vetor-form {
+        display: none;
+    }
+
+    div.formulario {
+        position: static;
+    }
+
+    div.conteudo1-2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    div.problema {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    div.problema article {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (max-width: 428px) {
+
+    nav ul  {
+        padding-left: 10px;
+    }
+    nav ul li {
+        padding-right: 20px;
+    }
+
+    div.conteudo1-1 .bannertopo {
+        max-width: 670px;
+    }
+
+    div.conteudo1-2 img {
+        margin-right: 0;
+    }
+
+    div.conteudo1-2 article {
+        max-width: 380px;
+        margin: auto;
+        padding-right: 0;
+
+    }
+
+    div.problema article {
+        max-width: 380px;
+    }
+
+    div.bloco {
+        margin-right:0;
+    }
+
+    div.bloco-j {
+        margin: 5px 0;
+    }
+
+    div.bloco-obj {
+        margin-right: 0;
+    }
+
+    footer .rodape { 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.social img.logo-rodape {
+        width: 250px;
+    }
+
+    div.social figure img.icone {
+        width: 30px;
+    }
+    
+    div.social p {
+        font-size: 1.3rem;
+    }
+    div.botao-procS button {
+        width: 200px;
+        font-size: 1.8rem;
+    }
+
+    div.rodape-li ul {
+        font-size: 1.8rem;
+    }
+
+    div.contato p {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 390px) {
+    div.conteudo1-1 .bannertopo {
+        max-width: 600px;
+    }
+
+    div.formulario {
+        max-width: 350px;
+    }
+
+    div.linguagensP label {
+        margin-right: 0px;
+    }
+
+    div.exp #exp-enviar {
+        max-width: 300px;
+    }
+
+    div.conteudo1-2 img {
+        max-width: 350px;
+    }
+
+    div.conteudo1-2 article {
+        max-width: 330px;
+        
+    }
+
+    div.problema article {
+        max-width: 330px;
+    }
+}
+
+@media (max-width: 375px) {
+    nav ul li {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width:321px){
+
+    img.logo {
+        margin-bottom: 0px;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    div.conteudo1-1 .bannertopo {
+        max-width: 500px;
+    }
+
+    div.formulario {
+        max-width: 300px;
+    }
+
+    div.linguagensP {
+        padding-left:5px;
+        padding-right:5px;
+    }
+    div.linguagensP label {
+        font-size: 12px;
+    }
+
+    div.exp #exp-enviar {
+        max-width: 250px;
+    }
+
+    div.conteudo1-2 article {
+        max-width: 290px;
+    }
+
+    div.conteudo1-2 img {
+        max-width: 300px;
+    }
+
+    div.problema article {
+        max-width: 300px;
+    }
+
+    div.problema img {
+        max-width: 300px;
+    }
+
+    div.blocos .bloco {
+        max-width: 210px;
+    }
+
+    div.blocos-jornada .bloco-j {
+        max-width: 300px;
+    }
+
+    div.bloco-obj {
+        max-width: 240px;
+    }
+
+    footer .contato {
+        padding-left: 20px;
+        text-align: left;
+    }
+}
