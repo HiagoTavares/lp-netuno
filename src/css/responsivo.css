@@ -142,21 +142,22 @@
         margin-top: 40px;
         margin-bottom: 10px;
     }
+}
 
-
+@media (max-width: 502px){
+    nav ul li {
+        padding-right: 20px;
+    }
+    nav ul  {
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 428px) {
 
-    nav ul  {
-        padding-left: 10px;
-    }
-    nav ul li {
-        padding-right: 20px;
-    }
 
     div.conteudo1-1 .bannertopo {
-        max-width: 670px;
+       width: 670px;
     }
 
     div.conteudo1-2 img {
